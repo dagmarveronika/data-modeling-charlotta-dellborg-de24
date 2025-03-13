@@ -1,0 +1,5 @@
+a) The entities are called customer, rental and car
+b) the customer "gets" a rental, the rental "applies to" a car
+c) customer to rental is one-to-many, rental to customer is many-to-one, rental to car is many-to-one, car
+d) A customer can get one or more rentals. A rental can only belong to one customer but isn't required.
+   A rental can only apply to one car but isn't required. A car can belong to one or more rentals (but not simultaneously??)
