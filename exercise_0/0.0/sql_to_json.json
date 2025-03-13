@@ -1,0 +1,19 @@
+{
+    "Employees":
+    [
+        {
+            "employee_id": 1,
+            "first_name": "Hakan",
+            "last_name": "Hakansson",
+            "department": "HR",
+            "salary": 30000
+        },
+        {
+            "employee_id": 2,
+            "first_name": "Bob",
+            "last_name": "Bobson",
+            "department": "IT",
+            "salary": 35000
+        }
+    ]
+}
