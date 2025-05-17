@@ -1,0 +1,19 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    Programme(programme_code, programme_name, director, hve_credits, length_in_years)
+VALUES
+    (
+        'DE',
+        'Data Engineer',
+        'KrHå',
+        400,
+        2
+    ),
+    (
+        'JAVA',
+        'Javautvecklare',
+        'ToHo',
+        415,
+        2
+    );

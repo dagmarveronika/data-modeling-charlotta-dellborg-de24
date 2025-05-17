@@ -19,7 +19,7 @@ VALUES
         'Karl',
         'Gustavsson',
         'Hovet',
-        org,
+        5566771234,
         'Kungsgatan 69'
         250
         True,
@@ -30,7 +30,7 @@ VALUES
         'Silvia',
         'Kronstedt',
         'Regina AB',
-        org,
+        558899005678,
         'Drottninggatan 96'
         280,
         True
