@@ -4,16 +4,46 @@ INSERT INTO
     Staff(staff_id, employment_type, occupation, email, location_id)
 VALUES
     (
-        'ST',
-        'Stockholm',
-        'Drottninggatan 10',
-        11160
+        'EvSa',
+        'permanent employee',
+        'teacher',
+        'evsa@yrkesco.se'
+        'ST'
     ),
     (
-        'GÖ',
-        'Göteborg',
-        'Kungsgatan 20',
-        41115
+        'Ansj',
+        'permanent employee',
+        'teacher',
+        'ansj@yrkesco.se'
+        'GÖ'
+    ),
+    (
+        'ToHo',
+        'permanent employee',
+        'faculty programme director',
+        'toho@yrkesco.se'
+        'GÖ'
+    ),
+    (
+        'KrHå',
+        'permanent employee',
+        'faculty programme director',
+        'krhå@yrkesco.se'
+        'ST'
+    ),
+    (
+        'KaGu',
+        'consultant',
+        'teacher',
+        'kagu@yrkesco.se'
+        'ST'
+    ),
+    (
+        'SiKo',
+        'consultant',
+        'teacher',
+        'siko@yrkesco.se'
+        'GÖ'
     );
 
 SELECT

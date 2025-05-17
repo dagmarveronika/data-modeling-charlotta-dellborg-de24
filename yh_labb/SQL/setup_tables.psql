@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS
         first_name VARCHAR(50),
         last_name VARCHAR(50),
         company_name VARCHAR(50),
-        organization_number VARCHAR(30)
+        organization_number VARCHAR(30),
         company_adress VARCHAR(100),
         hourly_fee INTEGER,
         has_ftax BOOLEAN
