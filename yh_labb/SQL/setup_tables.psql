@@ -30,7 +30,6 @@ CREATE TABLE IF NOT EXISTS
         phone_number VARCHAR(10) UNIQUE,
         adress VARCHAR(100),
         monthly_salary INTEGER,
-        yearly_salary INTEGER
     );
 
 CREATE TABLE IF NOT EXISTS

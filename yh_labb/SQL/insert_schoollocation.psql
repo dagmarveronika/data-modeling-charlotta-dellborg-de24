@@ -1,0 +1,22 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    SchoolLocation(location_id, city, street_adress, postcode)
+VALUES
+    (
+        'ST',
+        'Stockholm',
+        'Drottninggatan 10',
+        11160
+    ),
+    (
+        'GÖ',
+        'Göteborg',
+        'Kungsgatan 20',
+        41115
+    );
+
+SELECT
+    *
+FROM
+    SchoolLocation;

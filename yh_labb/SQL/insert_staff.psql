@@ -1,0 +1,22 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    Staff(staff_id, employment_type, occupation, email, location_id)
+VALUES
+    (
+        'ST',
+        'Stockholm',
+        'Drottninggatan 10',
+        11160
+    ),
+    (
+        'GÖ',
+        'Göteborg',
+        'Kungsgatan 20',
+        41115
+    );
+
+SELECT
+    *
+FROM
+    Staff;
