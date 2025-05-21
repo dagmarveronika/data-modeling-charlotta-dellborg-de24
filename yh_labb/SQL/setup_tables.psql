@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS
 
 CREATE TABLE IF NOT EXISTS
     SchoolClass (
-        class_id VARCHAR(4) PRIMARY KEY,
+        class_id VARCHAR(8) PRIMARY KEY,
         programme_code VARCHAR(5),
         FOREIGN KEY (programme_code) REFERENCES Programme (programme_code),
         start_date DATE,

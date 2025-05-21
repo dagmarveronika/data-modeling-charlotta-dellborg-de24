@@ -17,3 +17,8 @@ VALUES
         415,
         2
     );
+
+SELECT
+    *
+FROM
+    Programme;
