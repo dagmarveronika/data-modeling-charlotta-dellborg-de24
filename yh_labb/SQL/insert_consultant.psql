@@ -12,19 +12,37 @@ INSERT INTO
         )
 VALUES
     (
+        198501023264,
+        'EvSa',
+        'Kuriosa AB',
+        5512345678,
+        'Storgatan 55',
+        280,
+        True,
+    ),
+    (
+        199205075677,
+        'AnSj',
+        'Lake Solutions',
+        5587654321,
+        'Götgatan 43',
+        240,
+        False
+    ),
+    (
         198106163263,
         'KaGu',
         'Hovet',
         5566771234,
         'Kungsgatan 69'
-        250
+        250,
         True,
     ),
     (
         198712087988,
         'SiKo',
         'Regina AB',
-        558899005678,
+        5588990056,
         'Drottninggatan 96'
         280,
         True
