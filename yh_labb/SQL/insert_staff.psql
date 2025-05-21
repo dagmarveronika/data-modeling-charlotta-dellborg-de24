@@ -17,7 +17,7 @@ VALUES
         'permanent employee',
         'teacher',
         'evsa@yrkesco.se'
-        'ST'
+        'STO'
     ),
     (
         'AnSj',
@@ -26,7 +26,7 @@ VALUES
         'permanent employee',
         'teacher',
         'ansj@yrkesco.se'
-        'GÖ'
+        'GÖT'
     ),
     (
         'ToHo',
@@ -35,7 +35,7 @@ VALUES
         'permanent employee',
         'faculty programme director',
         'toho@yrkesco.se'
-        'GÖ'
+        'GÖT'
     ),
     (
         'KrHå',
@@ -44,7 +44,7 @@ VALUES
         'permanent employee',
         'faculty programme director',
         'krhå@yrkesco.se'
-        'ST'
+        'STO'
     ),
     (
         'KaGu',
@@ -53,7 +53,7 @@ VALUES
         'consultant',
         'teacher',
         'kagu@yrkesco.se'
-        'ST'
+        'STO'
     ),
     (
         'SiKo',
@@ -62,7 +62,7 @@ VALUES
         'consultant',
         'teacher',
         'siko@yrkesco.se'
-        'GÖ'
+        'GÖT'
     );
 
 SELECT

@@ -1,0 +1,50 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    Course(course_code, course_name, description, hve_credits, length_in_weeks, available_as_freestanding)
+VALUES
+    (
+        'PROPYT1',
+        'Programmering med Python 1',
+        'En grundkurs i programmering som använder språket Python',
+        40,
+        8,
+        False
+    ),
+    (
+        'PROPYT2',
+        'Programmering med Python 2',
+        'En fördjupande kurs för den som vill specialicera sig på Python',
+        30,
+        6,
+        False
+    ),
+    (
+        'PROJAV1',
+        'Programmering med Java 1',
+        'En grundkurs i programmering som använder språket Java',
+        40,
+        8,
+        False
+    ),
+    (
+        'PROJAV2',
+        'Programmering med Java 2',
+        'En fördjupande kurs för programmering med Java',
+        40,
+        8,
+        False
+    ),
+    (
+        'CYB',
+        'Cybersäkerhet'
+        'Lär dig att hantera data på ett säkert sätt och att förebygga intrång via internet'
+        50,
+        10,
+        True
+    );
+
+SELECT
+    *
+FROM
+    Course;
