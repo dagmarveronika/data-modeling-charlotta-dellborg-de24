@@ -14,7 +14,7 @@ VALUES
         'EvSa',
         'Eva',
         'Sandberg',
-        'permanent employee',
+        'consultant',
         'teacher',
         'evsa@yrkesco.se'
         'STO'
@@ -23,7 +23,7 @@ VALUES
         'AnSj',
         'Anders',
         'Sjöström',
-        'permanent employee',
+        'consultant',
         'teacher',
         'ansj@yrkesco.se'
         'GÖT'

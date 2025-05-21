@@ -1,0 +1,64 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    SchoolClass(class_id, programme_code, start_date, end_date, location_id, student_count, student_capacity)
+VALUES
+    (
+        'DE25A',
+        'DE',
+        '2025-09-15',
+        '2027-06-05',
+        'STO',
+        0,
+        30
+    ),
+    (
+        'DE25B',
+        'DE',
+        '2025-09-15',
+        '2027-06-05',
+        'STO',
+        0,
+        30
+    ),
+    (
+        'DE25C',
+        'DE',
+        '2025-09-15',
+        '2027-06-05',
+        'STO',
+        0,
+        30
+    ),
+    (
+        'JAVA25A',
+        'JAVA',
+        '2025-09-15',
+        '2027-06-05',
+        'GÖT',
+        0,
+        30
+    ),
+    (
+        'JAVA25B',
+        'JAVA',
+        '2025-09-15',
+        '2027-06-05',
+        'GÖT',
+        0,
+        30
+    ),
+    (
+        'JAVA25C',
+        'JAVA',
+        '2025-09-15',
+        '2027-06-05',
+        'GÖT',
+        0,
+        30
+    );
+
+SELECT
+    *
+FROM
+    SchoolClass;
