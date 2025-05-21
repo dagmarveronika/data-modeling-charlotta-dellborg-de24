@@ -1,17 +1,28 @@
 SET search_path TO yrkesco_database;
 
 INSERT INTO
-    Staff(staff_id, employment_type, occupation, email, location_id)
+    Staff(
+        staff_id,
+        first_name,
+        last_name,
+        employment_type,
+        occupation,
+        email,
+        location_id)
 VALUES
     (
         'EvSa',
+        'Eva',
+        'Sandberg',
         'permanent employee',
         'teacher',
         'evsa@yrkesco.se'
         'ST'
     ),
     (
-        'Ansj',
+        'AnSj',
+        'Anders',
+        'Sjöström',
         'permanent employee',
         'teacher',
         'ansj@yrkesco.se'
@@ -19,6 +30,8 @@ VALUES
     ),
     (
         'ToHo',
+        'Torsten',
+        'Holmgren',
         'permanent employee',
         'faculty programme director',
         'toho@yrkesco.se'
@@ -26,6 +39,8 @@ VALUES
     ),
     (
         'KrHå',
+        'Kristina',
+        'Håkansson',
         'permanent employee',
         'faculty programme director',
         'krhå@yrkesco.se'
@@ -33,6 +48,8 @@ VALUES
     ),
     (
         'KaGu',
+        'Karl',
+        'Gustavsson',
         'consultant',
         'teacher',
         'kagu@yrkesco.se'
@@ -40,6 +57,8 @@ VALUES
     ),
     (
         'SiKo',
+        'Silvia',
+        'Kronstedt',
         'consultant',
         'teacher',
         'siko@yrkesco.se'

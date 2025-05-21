@@ -4,8 +4,6 @@ INSERT INTO
     PermanentEmployee(
         personal_identity_number,
         staff_id,
-        first_name,
-        last_name,
         phone_number,
         adress,
         monthly_salary
@@ -14,8 +12,6 @@ VALUES
     (
         198501023264,
         'EvSa',
-        'Eva',
-        'Sandberg',
         '0701002030',
         'Storgatan 55'
         40000,
@@ -23,8 +19,6 @@ VALUES
     (
         199205075677,
         'AnSj',
-        'Anders',
-        'Sjöström',
         '0702003040',
         'Götgatan 43'
         35000,
@@ -32,8 +26,6 @@ VALUES
     (
         197905225677,
         'ToHo',
-        'Torsten',
-        'Holmgren',
         '0703004050',
         'Genvägen 5'
         45000,
@@ -41,8 +33,6 @@ VALUES
     (
         198811058942,
         'KrHå',
-        'Kristina',
-        'Håkansson',
         '0704005060',
         'Karlavägen 12'
         45000,

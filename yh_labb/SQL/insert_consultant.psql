@@ -4,8 +4,6 @@ INSERT INTO
     Consultant(
         personal_identity_number,
         staff_id,
-        first_name,
-        last_name,
         company_name,
         organization_number,
         company_adress,
@@ -16,8 +14,6 @@ VALUES
     (
         198106163263,
         'KaGu',
-        'Karl',
-        'Gustavsson',
         'Hovet',
         5566771234,
         'Kungsgatan 69'
@@ -27,8 +23,6 @@ VALUES
     (
         198712087988,
         'SiKo',
-        'Silvia',
-        'Kronstedt',
         'Regina AB',
         558899005678,
         'Drottninggatan 96'
