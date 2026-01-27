@@ -18,7 +18,7 @@ VALUES
         5512345678,
         'Storgatan 55',
         280,
-        True,
+        True
     ),
     (
         199205075677,
@@ -36,7 +36,7 @@ VALUES
         5566771234,
         'Kungsgatan 69'
         250,
-        True,
+        True
     ),
     (
         198712087988,
