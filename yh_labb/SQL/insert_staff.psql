@@ -16,7 +16,7 @@ VALUES
         'Sandberg',
         'consultant',
         'teacher',
-        'evsa@yrkesco.se'
+        'evsa@yrkesco.se',
         'STO'
     ),
     (
@@ -25,7 +25,7 @@ VALUES
         'Sjöström',
         'consultant',
         'teacher',
-        'ansj@yrkesco.se'
+        'ansj@yrkesco.se',
         'GÖT'
     ),
     (
@@ -34,7 +34,7 @@ VALUES
         'Holmgren',
         'permanent employee',
         'faculty programme director',
-        'toho@yrkesco.se'
+        'toho@yrkesco.se',
         'GÖT'
     ),
     (
@@ -43,7 +43,7 @@ VALUES
         'Håkansson',
         'permanent employee',
         'faculty programme director',
-        'krhå@yrkesco.se'
+        'krhå@yrkesco.se',
         'STO'
     ),
     (
@@ -52,7 +52,7 @@ VALUES
         'Gustavsson',
         'consultant',
         'teacher',
-        'kagu@yrkesco.se'
+        'kagu@yrkesco.se',
         'STO'
     ),
     (
@@ -61,7 +61,7 @@ VALUES
         'Kronstedt',
         'consultant',
         'teacher',
-        'siko@yrkesco.se'
+        'siko@yrkesco.se',
         'GÖT'
     );
 

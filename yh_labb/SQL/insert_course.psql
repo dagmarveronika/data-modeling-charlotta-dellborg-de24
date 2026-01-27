@@ -37,8 +37,8 @@ VALUES
     ),
     (
         'CYB',
-        'Cybersäkerhet'
-        'Lär dig att hantera data på ett säkert sätt och att förebygga intrång via internet'
+        'Cybersäkerhet',
+        'Lär dig att hantera data på ett säkert sätt och att förebygga intrång via internet',
         50,
         10,
         True
