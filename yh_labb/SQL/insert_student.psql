@@ -1,0 +1,64 @@
+SET search_path TO yrkesco_database;
+
+INSERT INTO
+    Student(
+        personal_identity_number,
+        first_name,
+        last_name,
+        class_id,
+        email,
+        phone_number)
+VALUES
+    (
+        199912091234,
+        'Ture',
+        'Dahlin',
+        'DE25A',
+        'ture.dahlin@student.yrkesco.se',
+        '0795935379'
+    ),
+    (
+        199510293564,
+        'Samuel',
+        'Andersson',
+        'DE25B',
+        'samuel.andersson@student.yrkesco.se',
+        '0721334661'
+    ),
+    (
+        200307062299,
+        'Siv',
+        'Brolin',
+        'DE25C',
+        'siv.brolin@student.yrkesco.se',
+        '0766331158'
+    ),
+    (
+        198604284824,
+        'Bodil',
+        'Limpar',
+        'JAVA25A',
+        'bodil.limpar@student.yrkesco.se',
+        '0721752988'
+    ),
+    (
+        200505055566,
+        'Dan',
+        'Erlingmark',
+        'JAVA25B',
+        'dan.erlingmark@student.yrkesco.se',
+        '0757744411'
+    ),
+    (
+        199801109876,
+        'Aira',
+        'Rehn',
+        'JAVA25C',
+        'aira.rehn@student.yrkesco.se',
+        '0721612377'
+    );
+
+SELECT
+    *
+FROM
+    Student;
