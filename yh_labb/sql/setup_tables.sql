@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS
         occupation VARCHAR(20),
         email VARCHAR(50) UNIQUE,
         location_id VARCHAR(2),
-        FOREIGN KEY (location_id) REFERENCES SchoolLocation (location_id),
+        FOREIGN KEY (location_id) REFERENCES SchoolLocation (location_id)
     );
 
 CREATE TABLE IF NOT EXISTS
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (staff_id) REFERENCES Staff (staff_id),
         phone_number VARCHAR(10) UNIQUE,
         adress VARCHAR(100),
-        monthly_salary INTEGER,
+        monthly_salary INTEGER
     );
 
 CREATE TABLE IF NOT EXISTS
