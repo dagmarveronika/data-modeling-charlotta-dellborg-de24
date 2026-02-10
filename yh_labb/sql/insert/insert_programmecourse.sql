@@ -3,7 +3,7 @@ SET search_path TO yrkesco_database;
 TRUNCATE TABLE ProgrammeCourse RESTART IDENTITY CASCADE;
 
 INSERT INTO
-    ProgrammeCourse(programme_code, course_code, course_name, educator, start_date, end_date)
+    ProgrammeCourse(programme_code, course_code, educator, start_date, end_date)
 VALUES
     (
         'DE'
