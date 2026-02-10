@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS
         location_id VARCHAR(2) PRIMARY KEY,
         city VARCHAR(20),
         street_adress VARCHAR(50),
-        postcode INTEGER
+        postcode INTEGER(5)
     );
 
 CREATE TABLE IF NOT EXISTS
