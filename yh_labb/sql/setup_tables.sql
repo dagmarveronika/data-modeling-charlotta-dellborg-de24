@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS
         location_id VARCHAR(2) PRIMARY KEY,
         city VARCHAR(20),
         street_adress VARCHAR(50),
-        postcode INTEGER(5)
+        postcode INTEGER
     );
 
 CREATE TABLE IF NOT EXISTS
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS
 
 CREATE TABLE IF NOT EXISTS
     PermanentEmployee(
-        personal_identity_number BIGINT(12) PRIMARY KEY,
+        personal_identity_number BIGINT PRIMARY KEY,
         staff_id VARCHAR(4),
         FOREIGN KEY (staff_id) REFERENCES Staff (staff_id),
         phone_number VARCHAR(10) UNIQUE,
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS
 
 CREATE TABLE IF NOT EXISTS
     Consultant(
-        personal_identity_number BIGINT(12) PRIMARY KEY,
+        personal_identity_number BIGINT PRIMARY KEY,
         staff_id VARCHAR(4),
         FOREIGN KEY (staff_id) REFERENCES Staff (staff_id),
         company_name VARCHAR(50),
@@ -103,7 +103,7 @@ CREATE TABLE IF NOT EXISTS
 
 CREATE TABLE IF NOT EXISTS 
     Student (
-        personal_identity_number BIGINT(12) PRIMARY KEY,
+        personal_identity_number BIGINT PRIMARY KEY,
         first_name VARCHAR(50),
         last_name VARCHAR(50),
         class_id VARCHAR(4),
