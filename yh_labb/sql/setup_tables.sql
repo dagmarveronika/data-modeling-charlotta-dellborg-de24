@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS
         first_name VARCHAR(50),
         last_name VARCHAR(50),
         employment_type VARCHAR(20),
-        occupation VARCHAR(20),
+        occupation VARCHAR(50),
         email VARCHAR(50) UNIQUE,
         location_id VARCHAR(3),
         FOREIGN KEY (location_id) REFERENCES SchoolLocation (location_id)
