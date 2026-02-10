@@ -4,7 +4,7 @@ SET search_path TO yrkesco_database;
 
 CREATE TABLE IF NOT EXISTS
     SchoolLocation(
-        location_id VARCHAR(2) PRIMARY KEY,
+        location_id VARCHAR(3) PRIMARY KEY,
         city VARCHAR(20),
         street_adress VARCHAR(50),
         postcode INTEGER
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS
         employment_type VARCHAR(20),
         occupation VARCHAR(20),
         email VARCHAR(50) UNIQUE,
-        location_id VARCHAR(2),
+        location_id VARCHAR(3),
         FOREIGN KEY (location_id) REFERENCES SchoolLocation (location_id)
     );
 
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (programme_code) REFERENCES Programme (programme_code),
         start_date DATE,
         end_date DATE,
-        location_id VARCHAR(2),
+        location_id VARCHAR(3),
         FOREIGN KEY (location_id) REFERENCES SchoolLocation (location_id),
         student_count INTEGER,
         student_capacity INTEGER
