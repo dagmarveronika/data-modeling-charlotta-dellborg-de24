@@ -34,7 +34,7 @@ VALUES
         'KaGu',
         'Hovet',
         5566771234,
-        'Kungsgatan 69'
+        'Kungsgatan 69',
         250,
         True
     ),
@@ -43,7 +43,7 @@ VALUES
         'SiKo',
         'Regina AB',
         5588990056,
-        'Drottninggatan 96'
+        'Drottninggatan 96',
         280,
         True
     );
