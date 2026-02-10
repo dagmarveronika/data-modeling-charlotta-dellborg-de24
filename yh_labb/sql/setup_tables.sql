@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS
     ProgrammeCourse (
         programme_code VARCHAR(5),
         course_code VARCHAR(10),
-        PRIMARY KEY (programme_code, course_code)
+        PRIMARY KEY (programme_code, course_code),
         FOREIGN KEY (programme_code) REFERENCES Programme (programme_code),
         FOREIGN KEY (course_code) REFERENCES Course (course_code),
         educator VARCHAR(4),
