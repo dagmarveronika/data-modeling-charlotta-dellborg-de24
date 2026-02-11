@@ -1,33 +1,31 @@
 SET search_path TO yrkesco_database;
 
-TRUNCATE TABLE ProgrammeCourse RESTART IDENTITY CASCADE;
-
 INSERT INTO
     ProgrammeCourse(programme_code, course_code, educator, start_date, end_date)
 VALUES
     (
-        'DE'
+        'DE',
         'PROPYT1',
         'EvSa',
         '2025-09-15',
         '2025-11-07'
     ),
     (
-        'DE'
+        'DE',
         'PROPYT2',
         'EvSa',
         '2025-11-10',
         '2025-12-19'
     ),
     (
-        'JAVA'
+        'JAVA',
         'PROJAV1',
         'AnSj',
         '2025-09-15',
         '2025-11-07'
     ),
     (
-        'JAVA'
+        'JAVA',
         'PROJAV2',
         'AnSj',
         '2025-11-10',
