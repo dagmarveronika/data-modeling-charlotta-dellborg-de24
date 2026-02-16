@@ -1,7 +1,12 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    Locality(locality_id, city, street_adress, postcode)
+    Locality (
+        locality_id,
+        city,
+        street_adress,
+        postcode)
 VALUES
     (
         'STO',

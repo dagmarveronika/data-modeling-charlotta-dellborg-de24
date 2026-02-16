@@ -1,13 +1,15 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    Student(
+    Student (
         personal_identity_number,
         first_name,
         last_name,
         class_id,
         email,
-        phone_number)
+        phone_number
+    )
 VALUES
     (
         199912091234,

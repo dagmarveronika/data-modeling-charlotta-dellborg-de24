@@ -1,13 +1,14 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    PermanentEmployee(
+    PermanentEmployee (
         personal_identity_number,
         staff_id,
         phone_number,
         adress,
         monthly_salary
-        )
+    )
 VALUES
     (
         197905223113,

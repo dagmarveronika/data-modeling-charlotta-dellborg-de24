@@ -1,7 +1,8 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    Consultant(
+    Consultant (
         personal_identity_number,
         staff_id,
         company_name,
@@ -9,7 +10,7 @@ INSERT INTO
         company_adress,
         hourly_fee,
         has_ftax
-        )
+    )
 VALUES
     (
         198501023264,

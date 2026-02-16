@@ -1,14 +1,16 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    Staff(
+    Staff (
         staff_id,
         first_name,
         last_name,
         employment_type,
         occupation,
         email,
-        locality)
+        locality
+    )
 VALUES
     (
         'EvSa',

@@ -1,7 +1,16 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    SchoolClass(class_id, programme_code, start_date, end_date, locality, student_count, student_capacity)
+    SchoolClass (
+        class_id,
+        programme_code,
+        start_date,
+        end_date,
+        locality,
+        student_count,
+        student_capacity
+    )
 VALUES
     (
         'DE25A',

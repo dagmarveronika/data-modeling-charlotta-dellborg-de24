@@ -1,17 +1,18 @@
 CREATE SCHEMA IF NOT EXISTS yrkesco_database;
 
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
-CREATE TABLE IF NOT EXISTS
-    Locality(
+CREATE TABLE
+    IF NOT EXISTS Locality (
         locality_id VARCHAR(3) PRIMARY KEY,
         city VARCHAR(20),
         street_adress VARCHAR(50),
         postcode INTEGER
     );
 
-CREATE TABLE IF NOT EXISTS
-    Staff (
+CREATE TABLE
+    IF NOT EXISTS Staff (
         staff_id VARCHAR(4) PRIMARY KEY,
         first_name VARCHAR(50),
         last_name VARCHAR(50),
@@ -22,8 +23,8 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (locality) REFERENCES Locality (locality_id)
     );
 
-CREATE TABLE IF NOT EXISTS
-    PermanentEmployee(
+CREATE TABLE
+    IF NOT EXISTS PermanentEmployee (
         personal_identity_number BIGINT PRIMARY KEY,
         staff_id VARCHAR(4),
         FOREIGN KEY (staff_id) REFERENCES Staff (staff_id),
@@ -32,8 +33,8 @@ CREATE TABLE IF NOT EXISTS
         monthly_salary INTEGER
     );
 
-CREATE TABLE IF NOT EXISTS
-    Consultant(
+CREATE TABLE
+    IF NOT EXISTS Consultant (
         personal_identity_number BIGINT PRIMARY KEY,
         staff_id VARCHAR(4),
         FOREIGN KEY (staff_id) REFERENCES Staff (staff_id),
@@ -44,8 +45,8 @@ CREATE TABLE IF NOT EXISTS
         has_ftax BOOLEAN
     );
 
-CREATE TABLE IF NOT EXISTS
-    Programme (
+CREATE TABLE
+    IF NOT EXISTS Programme (
         programme_code VARCHAR(5) PRIMARY KEY,
         programme_name VARCHAR(50),
         director VARCHAR(4),
@@ -54,8 +55,8 @@ CREATE TABLE IF NOT EXISTS
         length_in_years INTEGER
     );
 
-CREATE TABLE IF NOT EXISTS
-    Course (
+CREATE TABLE
+    IF NOT EXISTS Course (
         course_code VARCHAR(10) PRIMARY KEY,
         course_name VARCHAR(50) UNIQUE,
         description VARCHAR(300),
@@ -64,8 +65,8 @@ CREATE TABLE IF NOT EXISTS
         available_as_freestanding BOOLEAN
     );
 
-CREATE TABLE IF NOT EXISTS
-    ProgrammeCourse (
+CREATE TABLE
+    IF NOT EXISTS ProgrammeCourse (
         programme_code VARCHAR(5),
         course_code VARCHAR(10),
         PRIMARY KEY (programme_code, course_code),
@@ -77,21 +78,20 @@ CREATE TABLE IF NOT EXISTS
         end_date DATE
     );
 
-CREATE TABLE IF NOT EXISTS
-    FreestandingCourse (
+CREATE TABLE
+    IF NOT EXISTS FreestandingCourse (
         course_id SERIAL PRIMARY KEY,
         course_code VARCHAR(10),
         FOREIGN KEY (course_code) REFERENCES Course (course_code),
         educator VARCHAR(4),
         FOREIGN KEY (educator) REFERENCES Staff (staff_id),
         start_date DATE,
-        end_date DATE
-        locality VARCHAR(3),
+        end_date DATE locality VARCHAR(3),
         FOREIGN KEY (locality) REFERENCES Locality (locality_id)
     );
 
-CREATE TABLE IF NOT EXISTS
-    SchoolClass (
+CREATE TABLE
+    IF NOT EXISTS SchoolClass (
         class_id VARCHAR(8) PRIMARY KEY,
         programme_code VARCHAR(5),
         FOREIGN KEY (programme_code) REFERENCES Programme (programme_code),
@@ -103,8 +103,8 @@ CREATE TABLE IF NOT EXISTS
         student_capacity INTEGER
     );
 
-CREATE TABLE IF NOT EXISTS 
-    Student (
+CREATE TABLE
+    IF NOT EXISTS Student (
         personal_identity_number BIGINT PRIMARY KEY,
         first_name VARCHAR(50),
         last_name VARCHAR(50),
@@ -113,4 +113,3 @@ CREATE TABLE IF NOT EXISTS
         email VARCHAR(50) UNIQUE,
         phone_number VARCHAR(10) UNIQUE
     );
-

@@ -1,7 +1,15 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    Course(course_code, course_name, description, hve_credits, length_in_weeks, available_as_freestanding)
+    Course (
+        course_code,
+        course_name,
+        description,
+        hve_credits,
+        length_in_weeks,
+        available_as_freestanding
+    )
 VALUES
     (
         'PROPYT1',

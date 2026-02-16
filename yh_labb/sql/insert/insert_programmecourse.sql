@@ -1,7 +1,14 @@
-SET search_path TO yrkesco_database;
+SET
+    search_path TO yrkesco_database;
 
 INSERT INTO
-    ProgrammeCourse(programme_code, course_code, educator, start_date, end_date)
+    ProgrammeCourse (
+        programme_code,
+        course_code,
+        educator,
+        start_date,
+        end_date
+    )
 VALUES
     (
         'DE',
