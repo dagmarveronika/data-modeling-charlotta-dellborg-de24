@@ -9,4 +9,4 @@ DROP TABLE Programme;
 DROP TABLE Consultant;
 DROP TABLE PermanentEmployee;
 DROP TABLE Staff;
-DROP TABLE SchoolLocation;
+DROP TABLE Locality;
