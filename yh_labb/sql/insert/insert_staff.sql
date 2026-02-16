@@ -8,7 +8,7 @@ INSERT INTO
         employment_type,
         occupation,
         email,
-        locality_id)
+        locality)
 VALUES
     (
         'EvSa',

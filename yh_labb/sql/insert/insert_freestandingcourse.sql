@@ -3,7 +3,7 @@ SET search_path TO yrkesco_database;
 TRUNCATE TABLE FreestandingCourse RESTART IDENTITY CASCADE;
 
 INSERT INTO
-    FreestandingCourse(course_code, educator, start_date, end_date, locality_id)
+    FreestandingCourse(course_code, educator, start_date, end_date, locality)
 VALUES
     (
         'CYB',

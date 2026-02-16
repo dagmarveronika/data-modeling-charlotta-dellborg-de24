@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS
         employment_type VARCHAR(20),
         occupation VARCHAR(50),
         email VARCHAR(50) UNIQUE,
-        locality_id VARCHAR(3),
-        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id)
+        locality VARCHAR(3),
+        FOREIGN KEY (locality) REFERENCES Locality (locality_id)
     );
 
 CREATE TABLE IF NOT EXISTS
@@ -86,8 +86,8 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (educator) REFERENCES Staff (staff_id),
         start_date DATE,
         end_date DATE
-        locality_id VARCHAR(3),
-        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id)
+        locality VARCHAR(3),
+        FOREIGN KEY (locality) REFERENCES Locality (locality_id)
     );
 
 CREATE TABLE IF NOT EXISTS
@@ -97,8 +97,8 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (programme_code) REFERENCES Programme (programme_code),
         start_date DATE,
         end_date DATE,
-        locality_id VARCHAR(3),
-        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id),
+        locality VARCHAR(3),
+        FOREIGN KEY (locality) REFERENCES Locality (locality_id),
         student_count INTEGER,
         student_capacity INTEGER
     );
