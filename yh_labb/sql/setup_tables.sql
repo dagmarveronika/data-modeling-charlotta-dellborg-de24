@@ -86,6 +86,8 @@ CREATE TABLE IF NOT EXISTS
         FOREIGN KEY (educator) REFERENCES Staff (staff_id),
         start_date DATE,
         end_date DATE
+        locality_id VARCHAR(3),
+        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id)
     );
 
 CREATE TABLE IF NOT EXISTS
