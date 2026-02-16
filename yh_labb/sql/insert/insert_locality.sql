@@ -1,7 +1,7 @@
 SET search_path TO yrkesco_database;
 
 INSERT INTO
-    SchoolLocation(location_id, city, street_adress, postcode)
+    SchoolLocation(locality_id, city, street_adress, postcode)
 VALUES
     (
         'STO',
