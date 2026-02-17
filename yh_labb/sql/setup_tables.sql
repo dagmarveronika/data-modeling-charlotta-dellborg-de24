@@ -86,7 +86,8 @@ CREATE TABLE
         educator VARCHAR(4),
         FOREIGN KEY (educator) REFERENCES Staff (staff_id),
         start_date DATE,
-        end_date DATE locality VARCHAR(3),
+        end_date DATE,
+        locality VARCHAR(3),
         FOREIGN KEY (locality) REFERENCES Locality (locality_id)
     );
 
