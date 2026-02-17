@@ -1,0 +1,19 @@
+docker compose up -d
+docker exec -it postgres bash
+psql -U postgres -d yh_labb_db
+
+\i sql/setup_tables.sql
+
+\i sql/insert/insert_locality.sql
+\i sql/insert/insert_staff.sql
+\i sql/insert/insert_permanentemployee.sql
+\i sql/insert/insert_consultant.sql
+\i sql/insert/insert_programme.sql
+\i sql/insert/insert_course.sql
+\i sql/insert/insert_programmecourse.sql
+\i sql/insert/insert_freestandingcourse.sql
+\i sql/insert/insert_schoolclass.sql
+\i sql/insert/insert_student.sql
+
+\i sql/query/query_class.sql
+\i sql/query/query_programme.sql
