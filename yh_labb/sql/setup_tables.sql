@@ -99,7 +99,7 @@ CREATE TABLE
         start_date DATE,
         end_date DATE,
         locality_id VARCHAR(3),
-        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id),
+        FOREIGN KEY (locality_id) REFERENCES Locality (locality_id)
     );
 
 CREATE TABLE
