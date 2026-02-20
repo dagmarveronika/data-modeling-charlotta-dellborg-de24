@@ -9,7 +9,7 @@ INSERT INTO
         employment_type,
         occupation,
         email,
-        locality
+        locality_id
     )
 VALUES
     (

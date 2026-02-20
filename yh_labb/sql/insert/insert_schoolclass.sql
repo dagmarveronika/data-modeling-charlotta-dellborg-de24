@@ -7,7 +7,7 @@ INSERT INTO
         programme_code,
         start_date,
         end_date,
-        locality,
+        locality_id,
     )
 VALUES
     (

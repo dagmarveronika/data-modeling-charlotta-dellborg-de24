@@ -7,7 +7,7 @@ INSERT INTO
         educator,
         start_date,
         end_date,
-        locality
+        locality_id
     )
 VALUES
     (
