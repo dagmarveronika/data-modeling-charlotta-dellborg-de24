@@ -7,7 +7,7 @@ INSERT INTO
         programme_code,
         start_date,
         end_date,
-        locality_id,
+        locality_id
     )
 VALUES
     (
@@ -15,42 +15,42 @@ VALUES
         'DE',
         '2025-09-15',
         '2027-06-05',
-        'STO',
+        'STO'
     ),
     (
         'DE25B',
         'DE',
         '2025-09-15',
         '2027-06-05',
-        'STO',
+        'STO'
     ),
     (
         'DE25C',
         'DE',
         '2025-09-15',
         '2027-06-05',
-        'STO',
+        'STO'
     ),
     (
         'JAVA25A',
         'JAVA',
         '2025-09-15',
         '2027-06-05',
-        'GÖT',
+        'GÖT'
     ),
     (
         'JAVA25B',
         'JAVA',
         '2025-09-15',
         '2027-06-05',
-        'GÖT',
+        'GÖT'
     ),
     (
         'JAVA25C',
         'JAVA',
         '2025-09-15',
         '2027-06-05',
-        'GÖT',
+        'GÖT'
     );
 
 SELECT
