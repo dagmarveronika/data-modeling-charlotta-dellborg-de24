@@ -107,7 +107,7 @@ CREATE TABLE
         personal_identity_number BIGINT PRIMARY KEY,
         first_name VARCHAR(50),
         last_name VARCHAR(50),
-        class_id VARCHAR(8),--Add constraint that disallows students from being added to a class at capacity
+        class_id VARCHAR(8),
         FOREIGN KEY (class_id) REFERENCES SchoolClass (class_id),
         email VARCHAR(50) UNIQUE,
         phone_number VARCHAR(10) UNIQUE
